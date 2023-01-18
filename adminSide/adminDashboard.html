@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style_Admin\comn_style.css">
+    <link rel="stylesheet" href="Style_Admin\dashboard.css">
+</head>
+<body>
+    <div class="side-menu">
+<div class="web_logo">
+    <h1>Web Site name</h1><!--add logo immage-->
+</div>
+<ul>
+    <li><img src="#icons" alt="">&nbsp;<span>Home </span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Order</span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Ready to ship</span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Inventory</span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span>Add product </span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Income</span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Help </span></li>
+    <li><img src="#icons" alt="">&nbsp;<span>  Setting</span></li>
+</ul>
+</div>
+
+<div class="container">
+   <header class="header">
+    <nav class="nav">
+        <div class="search">
+            <input type="text" placeholder="Serch...">
+            <button class="btn" type="submit">Search</button>
+        </div>
+
+        <div class="user">
+         
+            
+            <!-- add user photo -->
+            <div class="icon-cls">
+                <img src="https://cdn.pixabay.com/photo/2014/04/02/17/07/user-307993__340.png" alt="">
+
+            </div>
+            <h3>User Name</h3>
+            <div class="icon-cls">  <i class="fa-solid fa-bell fa-2x"></i><!-- add notification logo --> </div>
+        </div>
+    </nav>
+   </header>
+<div class="content">
+
+    <div class="cards">
+    <div class="card">
+        <div class="box">
+            <h1>500</h1><!--Order Number-->
+            <h3>Total product</h3>
+            
+        </div>
+        <i class="fa-sharp fa-solid fa-cart-shopping fa-3x"></i>
+    </div>
+  
+
+    <div class="card">
+        <div class="box">
+            <h1>500</h1><!--Order Number-->
+            <h3>Pending Order</h3>
+            
+        </div>
+        <i class="fa-sharp fa-solid fa-cart-shopping fa-3x"></i>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <h1>500</h1><!--Order Number-->
+            <h3>Ready to Shiped</h3>
+            
+        </div>
+        <i class="fa-sharp fa-solid fa-cart-shopping fa-3x"></i>
+    </div>
+
+    <div class="card">
+        <div class="box">
+            <h1>500</h1><!--Order Number-->
+            <h3>Shiped</h3>
+            
+        </div>
+        <i class="fa-sharp fa-solid fa-cart-shopping fa-3x"></i>
+    </div>
+
+   
+</div>
+<!-- container 2 satrting buttom div -->
+<div class="advance_Data">
+    <div class="recent-payment">
+        <div class="title">
+            <h3>Recent Payment</h3>
+            <a href="#" class="btn"> View All</a>
+        </div>
+
+        <table>
+            <tr>
+                <th>Castomar Name</th>
+                <th>total Amount</th>
+                <th>Payment date</th>
+                <th>Option</th>
+               
+            </tr>
+            <tr>
+               <td>Tanmoy Roy</td>
+               <td>Rs.5000</td>
+               <td>12.12.2022</td>
+               <td><a href="#" class="btn">View</a></td>
+               
+            </tr>
+        </table>
+
+
+    </div>
+    <div class="out-for-Delevery">
+        <div class="title">
+            <h3>Out For Delevery</h3>
+            <a href="#" class="btn"> View All</a>
+        </div>
+        <table>
+            <tr>
+                <th>Castomar Name</th>
+                <th>total Amount</th>
+               
+                <th>Option</th>
+               
+            </tr>
+            <tr>
+               <td>Tanmoy Roy</td>
+               <td>Rs.5000</td>
+              
+               <td><a href="#" class="btn">View</a></td>
+               
+            </tr>
+        </table>
+    </div>
+</div>
+</div>
+
+
+
+</div>
+
+</body>
+</html>
