@@ -1,3 +1,7 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 body {
     background-color: #ADD8E6; /* light blue */
   }
