@@ -4,35 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Product</title>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style_Admin\comn_style.css">
     <link rel="stylesheet" href="addproduct.css">
 </head>
 <body>
-    <h1 class="add-products-title">Add Products</h1>
-    <div class="form-container">
-    <form>
-        <label for="product-name">Product Name:</label>
-        <input type="text" id="product-name" name="product-name" required>
-        <br>
-        <label for="product-image">Product Image:</label>
-        <input type="text" id="product-image" name="product-image" required>
-        <br>
-        <label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" name="quantity" required>
-        <br>
-        <label for="product-category">Product Category:</label>
-        <select id="product-category" name="product-category" required>
-          <option value=""></option>
-          <option value="category1">Category 1</option>
-          <option value="category2">Category 2</option>
-          <option value="category3">Category 3</option>
-        </select>
-        <br>
-        <label for="additional-keywords">Additional Keywords:</label>
-        <input type="text" id="additional-keywords" name="additional-keywords" required>
-        <br>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
+    <div class="side-menu">
+<div class="web_logo">
+    <h1>Web Site name</h1><!--add logo immage-->
+</div>
+<ul>
+    <li><img src="#icons" alt="">&nbsp;<span>Home </span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Order</span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Ready to ship</span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Inventory</span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span>Add product </span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Income</span> </li>
+    <li><img src="#icons" alt="">&nbsp;<span> Help </span></li>
+    <li><img src="#icons" alt="">&nbsp;<span>  Setting</span></li>
+</ul>
+</div>
+
+<div class="container">
+   <header class="header">
+    <nav class="nav">
+        <div class="search">
+          <h1>Add Single Product</h1>
+            <button id="delete" class="btn">
+              <!-- try applying delete function -->
+             Bulk Upload
+            </button>
+            
+        </div>
+
+        <div class="user">
+         
+            
+            <!-- add user photo -->
+            <div class="icon-cls">
+                <img src="https://cdn.pixabay.com/photo/2014/04/02/17/07/user-307993__340.png" alt="">
+
+            </div>
+            <h3>User Name</h3>
+            <div class="icon-cls">  <i class="fa-solid fa-bell fa-2x"></i><!-- add notification logo --> </div>
+        </div>
+    </nav>
+   </header>
+<div class="content">
+
+  <form id="add-Product">
+    <lebel>Product Name</lebel>
+    <input id="Product-Name" type="text" required>
+    <lebel>Catagory</lebel>
+    <select name="Catagory" id="Product-catagory" required>
+      <option value="">SELECT CATAGORY</option>
+      <option value="Shirts">Shirts</option>
+      <option value="Pants">Pants</option>
+      <option value="Tsharts">Tsharts</option>
+      <option value="Shorts">Shorts</option>
+    </select>
+    <lebel>Sub Catagory</lebel>
+    <select name="SubCatagory" id="Sub-catagory" required>
+      <option value="">SELECT SUB CATAGORY</option>
+      <option value="Formal">Formal</option>
+      <option value="Casual">Casual</option>
+      <option value="Fancy">Fancy</option>
+      <option value="others">others</option>
+    </select>
+     <lebel>BRAND</lebel>
+  <input id="brand" type="text">
+  <lebel>MRP</lebel>
+  <input id="mrp" type="number" required>
+  <lebel>Selling Price</lebel>
+  <input id="discount" type="number"> 
+  <lebel>Discount</lebel>
+  <input id="price" type="number">
+  <lebel>size</lebel>
+  <select name="size" id="size" required>
+    <option value="">SELECT SIZE</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+    <option value="XXL">XXL</option>
+  </select>
+
+  <label for="Product Immage">Product Immage</label>
+  <input id="img1" placeholder="Primary immage" required type="text">
+  <input id="img2" placeholder="Secondary immage" required type="text">
+  
+  <input type="text" id="keyword" placeholder="addition keyword">
+  <input class="btn" type="submit" >
+
+  
+  
+  
+  </form>
+  
+</div>
+
+
+
+
+</div>
+
 </body>
+<script src="Script_Admin\addProduct.js"></script>
 </html>
