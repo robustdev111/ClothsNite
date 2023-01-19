@@ -1,0 +1,56 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+    background-color: #ADD8E6; /* light blue */
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title{
+    text-align: center;
+    color: #00008B; /* dark blue */
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], input[type="date"] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50; /* green */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
