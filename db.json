@@ -1,10 +1,6 @@
 {
   "Products": [
     {
-
-
-      
-
       "id": 2,
       "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
       "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw32203fdc/hi-res/CSQ0033DEN_MODEL_UNTUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
@@ -12,11 +8,13 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"black",
-"sub-Catagory":"Casual",
-"size":["M"],
- "Brand":"",
-"discount":""
+      "colour": "black",
+      "sub-Catagory": "Casual",
+      "size": [
+        "M"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 3,
@@ -26,11 +24,15 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "black",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 4,
@@ -40,11 +42,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 5,
@@ -54,14 +61,18 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
-
       "id": 6,
       "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw1f0e6959/hi-res/FON2482WHT_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
       "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwe1d789bc/hi-res/FON2482WHT_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
@@ -69,14 +80,18 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
-
       "id": 7,
       "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwc613d41b/hi-res/FON2438FRE_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
       "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw0ceab526/hi-res/FON2438FRE_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
@@ -84,14 +99,18 @@
       "category": "shirts",
       "price": 109,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
-
       "id": 8,
       "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw088b57c0/hi-res/FON2482CFW_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
       "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw7917809e/hi-res/FON2482CFW_MODEL_FULL.jpg?sw=430&sh=538&sm=fit&q=42",
@@ -99,11 +118,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 9,
@@ -112,11 +136,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 10,
@@ -126,11 +155,16 @@
       "category": "shirts",
       "price": 109,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 11,
@@ -140,11 +174,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 12,
@@ -153,11 +192,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 13,
@@ -166,11 +210,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 14,
@@ -179,26 +228,34 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
-
-
       "id": 16,
       "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw6efa7ccd/hi-res/CSR2067PNK_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
       "title": "Spread Collar Non-Iron Henley Weave Check Shirt",
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 17,
@@ -207,11 +264,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 18,
@@ -220,11 +282,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 19,
@@ -233,11 +300,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 20,
@@ -246,11 +318,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 21,
@@ -259,11 +336,16 @@
       "category": "shirts",
       "price": 109,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 22,
@@ -272,11 +354,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 23,
@@ -285,13 +372,17 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "black",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
-
     {
       "id": 24,
       "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwe7cf9e8d/hi-res/SUT0275OCE_TROUSER_FRONT.jpg?sw=430&sh=538&sm=fit&q=42",
@@ -299,11 +390,16 @@
       "price": 160,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 25,
@@ -312,11 +408,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 26,
@@ -325,11 +426,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 27,
@@ -338,11 +444,16 @@
       "price": 120,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 28,
@@ -351,11 +462,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "green",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 29,
@@ -364,11 +480,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 30,
@@ -377,11 +498,16 @@
       "price": 89,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "grey",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 31,
@@ -390,11 +516,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 32,
@@ -403,11 +534,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "toffee",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 33,
@@ -416,11 +552,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 34,
@@ -429,11 +570,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 35,
@@ -442,11 +588,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "green",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 36,
@@ -455,11 +606,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 37,
@@ -468,11 +624,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "grey",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 38,
@@ -481,11 +642,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 39,
@@ -494,11 +660,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 40,
@@ -506,7 +677,8 @@
       "title": "Cotton Linen Shorts - Light Grey",
       "price": 69,
       "category": "pants",
-      "offer": "$59.75 MULTIBUY"
+      "offer": "$59.75 MULTIBUY",
+      "colour":"grey"
     },
     {
       "id": 41,
@@ -515,11 +687,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 42,
@@ -528,11 +705,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "yellow",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 43,
@@ -541,11 +723,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 44,
@@ -555,11 +742,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 45,
@@ -569,11 +761,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 46,
@@ -583,11 +780,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 47,
@@ -597,11 +799,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 48,
@@ -611,11 +818,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 49,
@@ -625,11 +837,16 @@
       "category": "shirts",
       "price": 109,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 50,
@@ -639,11 +856,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 51,
@@ -652,11 +874,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 52,
@@ -666,11 +893,16 @@
       "category": "shirts",
       "price": 109,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 53,
@@ -680,11 +912,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 54,
@@ -693,11 +930,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 55,
@@ -706,11 +948,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 56,
@@ -719,11 +966,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 57,
@@ -732,11 +984,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 58,
@@ -745,11 +1002,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 59,
@@ -758,11 +1020,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 60,
@@ -771,11 +1038,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "grey",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 61,
@@ -784,11 +1056,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 62,
@@ -797,11 +1074,16 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 63,
@@ -810,11 +1092,16 @@
       "category": "shirts",
       "price": 109,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 64,
@@ -823,11 +1110,16 @@
       "category": "shirts",
       "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 65,
@@ -836,14 +1128,17 @@
       "category": "shirts",
       "price": 99,
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
-
+      "colour": "grey",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
-
     {
       "id": 66,
       "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dwe7cf9e8d/hi-res/SUT0275OCE_TROUSER_FRONT.jpg?sw=430&sh=538&sm=fit&q=42",
@@ -851,11 +1146,16 @@
       "price": 160,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 67,
@@ -864,11 +1164,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 68,
@@ -877,11 +1182,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 69,
@@ -890,11 +1200,16 @@
       "price": 120,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 70,
@@ -903,11 +1218,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "green",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 71,
@@ -916,11 +1236,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "black",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 72,
@@ -929,11 +1254,16 @@
       "price": 89,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "grey",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 73,
@@ -942,11 +1272,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 74,
@@ -955,11 +1290,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "toffee",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 75,
@@ -968,11 +1308,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 76,
@@ -981,11 +1326,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "white",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 77,
@@ -994,11 +1344,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "green",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 78,
@@ -1007,11 +1362,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 79,
@@ -1020,24 +1380,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
-    },
-    {
-      "id": 80,
-      "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw932e4aac/hi-res/JEG0002NAV_MODEL_FRONT.jpg?sw=430&sh=538&sm=fit&q=42",
-      "title": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw932e4aac/hi-res/JEG0002NAV_MODEL_FRONT.jpg?sw=430&sh=538&sm=fit&q=42",
-      "price": 99,
-      "category": "pants",
-      "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "grey",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 81,
@@ -1046,11 +1398,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 82,
@@ -1059,11 +1416,16 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "grey",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 83,
@@ -1072,11 +1434,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "blue",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 84,
@@ -1085,11 +1452,16 @@
       "price": 99,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "yellow",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
       "id": 85,
@@ -1098,13 +1470,17 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-      "colour":"",
-      "sub-Catagory":"",
-      "size":["M","L","XL","XXL"],
-       "Brand":"",
-      "discount":""
+      "colour": "pink",
+      "sub-Catagory": "",
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "Brand": "",
+      "discount": ""
     }
- 
   ],
   "profile": {
     "name": "typicode"

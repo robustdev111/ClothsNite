@@ -93,23 +93,14 @@ let searchplaceholder=document.getElementById("searchplaceholder");
 window.addEventListener("load",()=>{
 
     // let alldata=[]
-    let fetchProduct=fetch("http://localhost:3000/shirts")
+    let fetchProduct=fetch("http://localhost:3000/Products")
         fetchProduct.then((res)=>{
             return res.json()
 
         })
-        .then((shirts)=>{
-
-            let fetchPants=fetch("http://localhost:3000/pants")
-            fetchPants.then((res)=>{
-                return res.json()
-            })
-            .then((pants)=>{
-                // console.log(pants)
-               let alldata=[...shirts,...pants]
-                console.log(alldata)
-                renderData(alldata)
-            })
+        .then((Products)=>{
+                renderData(Products)
+            
         })    
 })
 
@@ -121,7 +112,7 @@ function renderData(data){
             let tr=document.createElement("tr");
             let imageTd=document.createElement("td");
             let image=document.createElement("img");
-            image.setAttribute("src",element.image);
+            image.setAttribute("src",element.image1);
             imageTd.append(image)
             let title=document.createElement("td");
             let price=document.createElement("td");
@@ -129,7 +120,7 @@ function renderData(data){
             let deletebtn=document.createElement("td");
                 deletebtn.setAttribute("class","deletebtn")
                 deletebtn.addEventListener("click",()=>{
-                fetch(`http://localhost:3000/shirts/${element.id}`,{
+                fetch(`http://localhost:3000/Products/${element.id}`,{
                     method: 'DELETE',
                     headers:{
                         'Content-type':'application/json'
@@ -148,7 +139,7 @@ function renderData(data){
 }
 //  search functionality
 search.addEventListener("click",()=>{
-    fetch(`http://localhost:3000/shirts?q=${searchplaceholder.value}`)
+    fetch(`http://localhost:3000/Products?q=${searchplaceholder.value}`)
     .then((res)=>{
         return res.json()
     })
