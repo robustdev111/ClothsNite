@@ -52,6 +52,16 @@ i{
     margin: 5px;
 
 }
+.btng{
+    background: #e9c10e;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border :none;
+    margin: 5px;
+
+}
 table{
  padding: 10px;
    

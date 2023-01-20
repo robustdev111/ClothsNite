@@ -1,6 +1,6 @@
 // console.log("add immage ok")
-
-
+let url="https://mock-api-wmzl.onrender.com/Products"
+//url can be chenge
 
 
 let form=document.getElementById("add-Product");
@@ -21,7 +21,7 @@ form.addEventListener("submit",(e)=>{
    let image=[img1.value,img2.value];
 
  
-   fetch(`https://mock-api-wmzl.onrender.com/Products`, {
+   fetch(url, {
       method: 'POST',
       headers: { 
         'Content-type': 'application/json',
