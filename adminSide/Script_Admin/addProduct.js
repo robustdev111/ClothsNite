@@ -12,7 +12,7 @@ form.addEventListener("submit",(e)=>{
    let pSubCatagory=document.getElementById("Sub-catagory")
    let mrp=document.getElementById("mrp")
    let price=document.getElementById("price")
-   let Brand=document.getElementById("brand")
+  
     let discount=document.getElementById("discount")
    let size=document.getElementById("size")
    let img1=document.getElementById("img1")
@@ -56,7 +56,7 @@ form.addEventListener("submit",(e)=>{
     price.value=""
     mrp.value=""
     size.value=""
-    Brand.value=""
+   
      discount.value=""
 
    

@@ -71,16 +71,18 @@ form {
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 
 #add-Product{
+
 width: 40%;
-margin: 30px;
+margin: 30px auto;
 display: flex;
 flex-direction: column;
+z-index: 6;
 
 }
 #add-Product input,select{
   border: none;
   border-radius: 5px;
-  
+  z-index: 8;
   padding: 5px;
   margin: 5px;
 }
