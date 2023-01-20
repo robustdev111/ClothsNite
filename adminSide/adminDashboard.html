@@ -15,14 +15,14 @@
     <h1>Web Site name</h1><!--add logo immage-->
 </div>
 <ul>
-    <li><img src="#icons" alt="">&nbsp;<span>Home </span> </li>
-    <li><img src="#icons" alt="">&nbsp;<span> Order</span> </li>
-    <li><img src="#icons" alt="">&nbsp;<span> Ready to ship</span> </li>
-    <li><img src="#icons" alt="">&nbsp;<span> Inventory</span> </li>
-    <li><img src="#icons" alt="">&nbsp;<span>Add product </span> </li>
-    <li><img src="#icons" alt="">&nbsp;<span> Income</span> </li>
-    <li><img src="#icons" alt="">&nbsp;<span> Help </span></li>
-    <li><img src="#icons" alt="">&nbsp;<span>  Setting</span></li>
+    <li><a href="adminDashboard.html"><i class="fa-solid fa-house"></i><span>Home </span></a> </li>
+    <li><a href="order.html"><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Order</span></a> </li>
+    <li><a href="readyToShift.html"><i class="fa-sharp fa-solid fa-truck-fast"></i><span> Ready to ship</span></a> </li>
+    <li><a href=""><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Inventory</span></a> </li>
+    <li><a href=""><i class="fa-sharp fa-solid fa-plus"></i><span>Add product </span></a> </li>
+    <li><a href=""><i class="fa-sharp fa-solid fa-money-check-dollar"></i><span> Income</span></a> </li>
+    <li><a href=""><i class="fa-sharp fa-solid fa-circle-info"></i><span> Help </span></a></li>
+    <li><a href=""><i class="fa-sharp fa-solid fa-gear"></i><span>  Setting</span></a></li>
 </ul>
 </div>
 
@@ -30,8 +30,7 @@
    <header class="header">
     <nav class="nav">
         <div class="search">
-            <input type="text" placeholder="Serch...">
-            <button class="btn" type="submit">Search</button>
+            <h1>Welcome Back Admin</h1>
         </div>
 
         <div class="user">
@@ -56,7 +55,7 @@
             <h3>Total product</h3>
             
         </div>
-        <i class="fa-sharp fa-solid fa-cart-shopping fa-3x"></i>
+        <i class="fa-sharp fa-solid fa-boxes-stacked fa-3x"></i>
     </div>
   
 
@@ -66,7 +65,7 @@
             <h3>Pending Order</h3>
             
         </div>
-        <i class="fa-sharp fa-solid fa-cart-shopping fa-3x"></i>
+        <i class="fa-sharp fa-solid fa-parachute-box fa-3x"></i>
     </div>
 
     <div class="card">
@@ -75,7 +74,7 @@
             <h3>Ready to Shiped</h3>
             
         </div>
-        <i class="fa-sharp fa-solid fa-cart-shopping fa-3x"></i>
+        <i class="fa-sharp fa-solid fa-box fa-3x"></i>
     </div>
 
     <div class="card">
@@ -84,7 +83,7 @@
             <h3>Shiped</h3>
             
         </div>
-        <i class="fa-sharp fa-solid fa-cart-shopping fa-3x"></i>
+        <i class="fa-sharp fa-solid fa-truck-fast fa-3x"></i>
     </div>
 
    
@@ -99,27 +98,37 @@
 
         <table>
             <tr>
+                <th>Product image</th>
                 <th>Product Name</th>
-                <th>Price</th>
-                <th>3rd data</th>
-                <th>4th data</th>
+                <th>View</th>
+                <th>Rating</th>
+                <th>Status</th>
                
             </tr>
             <tr>
+                <td><div><img src="https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42" alt="Product img"></div></td>
                <td>product name</td>
-               <td>data</td>
-               <td>Data</td>
-               <td><button class="btn">Del</button></td>
+               <td>2000</td>
+               <td>4.9</td>
+               <td><button class="btn">Live</td>
+               
+            </tr>
+            <tr>
+                <td><div><img src="https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42" alt="Product img"></div></td>
+               <td>product name</td>
+               <td>100</td>
+               <td>2.1</td>
+               <td><button class="btng">Pause</td>
                
             </tr>
         </table>
 
 
     </div>
-    <div class="Payments">
+    <div class="MonthlySell">
         <div class="title">
-            <h3>Total payment</h3>
-            <a href="#" class="btn"> View All</a>
+            <h3>Sell Data</h3>
+            <a href="#" class="btn"> View details</a>
         </div>
         <table><tr>
             <th>date</th>

@@ -2,13 +2,18 @@
   padding: 0px;
   margin: 0px;
 }
-form {
+/* form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   
+form div{
+  display: flex;
+  justify-content: space-evenly;
+}
+
   label {
     font-size: 18px;
     font-weight: bold;
@@ -16,7 +21,7 @@ form {
   }
   
   input[type="text"], input[type="number"] {
-    padding: 12px 20px;
+    padding:5px;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -30,7 +35,7 @@ form {
   }
   
   input[type="submit"] {
-    background-color: #4CAF50; /* green */
+    background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -41,25 +46,44 @@ form {
   
   .add-products-title {
     text-align: center;
-    color: #00008B; /* dark blue */
+    color: #00008B;
     font-size: 40px;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background-color: #ADD8E6; /* light blue */
+    background-color: #ADD8E6; 
     padding: 10px;
 }
 
-.form-container {
-    border: 2px solid #ADD8E6; /* dark blue */
+form {
+    border: 2px solid #ADD8E6; 
     padding: 20px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 10px;
-    width: 40%; /* to limit the width of the container */
+    width: 40%; 
     margin: auto;
+} */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+#add-Product{
+
+width: 40%;
+margin: 30px auto;
+display: flex;
+flex-direction: column;
+z-index: 6;
+
 }
+#add-Product input,select{
+  border: none;
+  border-radius: 5px;
+  z-index: 8;
+  padding: 5px;
+  margin: 5px;
+}
+
