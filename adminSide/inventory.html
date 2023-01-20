@@ -7,6 +7,7 @@
     <title>Inventory Page</title>
     <!-- <link rel="stylesheet" href="inventory.css"> -->
     <link rel="stylesheet" href="/adminSide/Style_Admin/comn_style.css">
+    <link rel="stylesheet" href="inventory.css">
 </head>
 <body>
     <div class="side-menu">
@@ -29,8 +30,8 @@
            <header class="header">
             <nav class="nav">
                 <div class="search">
-                    <input type="text" placeholder="Serch...">
-                    <button class="btn" type="submit">Search</button>
+                    <input type="text" placeholder="Search..." id="searchplaceholder">
+                    <button class="btn" type="submit" id="search">Search</button>
                 </div>
         
                 <div class="user">
@@ -62,10 +63,10 @@
                     </tr> -->
                     <thead>
                         <tr>
-                            <th>productName</th>
+                            <th>product Image</th>
+                            <th>Product Name</th>
                             <th>Price</th>
                             <th>Category</th>
-                            <th>Product Id</th>
                             <th>Delete</th>
                         </tr>
                     </thead>
@@ -86,55 +87,74 @@
 </html>
 <script>
 let showItem=document.getElementById("showItem");
-
+let search=document.getElementById("search");
+let searchplaceholder=document.getElementById("searchplaceholder");
 
 window.addEventListener("load",()=>{
-    let fetchProduct=fetch("http://localhost:3000/Products")
-    fetchProduct.then((res)=>{
-        return res.json()
-    })
-    .then((data)=>{
-        console.log(data)
-        renderData(data)
-    })
-    
+
+    // let alldata=[]
+    let fetchProduct=fetch("http://localhost:3000/shirts")
+        fetchProduct.then((res)=>{
+            return res.json()
+
+        })
+        .then((shirts)=>{
+
+            let fetchPants=fetch("http://localhost:3000/pants")
+            fetchPants.then((res)=>{
+                return res.json()
+            })
+            .then((pants)=>{
+                // console.log(pants)
+               let alldata=[...shirts,...pants]
+                console.log(alldata)
+                renderData(alldata)
+            })
+        })    
 })
 
+
 function renderData(data){
-    // let show=data.forEach((element) => {
-    //     showData(element.title,element.price,element.category);
-    // });
-    let cardList=data.map(item=> showData(item.title,item.price,item.category,item.id)).join(" ")
-    showItem.innerHTML=cardList
-    let deleteItem=document.querySelectorAll(".btn");
-    
-    for(let btn of deleteItem){
-        btn.addEventListener("click",()=>{
-         console.log(btn)
-        })
-    }
+    showItem.innerHTML=null;
+        data.forEach((element) => {
+          
+            let tr=document.createElement("tr");
+            let imageTd=document.createElement("td");
+            let image=document.createElement("img");
+            image.setAttribute("src",element.image);
+            imageTd.append(image)
+            let title=document.createElement("td");
+            let price=document.createElement("td");
+            let category=document.createElement("td");
+            let deletebtn=document.createElement("td");
+                deletebtn.setAttribute("class","deletebtn")
+                deletebtn.addEventListener("click",()=>{
+                fetch(`http://localhost:3000/shirts/${element.id}`,{
+                    method: 'DELETE',
+                    headers:{
+                        'Content-type':'application/json'
+                    }
+                })
+                renderData(data)
+                })
+                title.innerText=element.title;
+                price.innerText=element.price;
+                category.innerText=element.category;
+                deletebtn.innerText="Delete"
+            tr.append(image,title,price,category,deletebtn);
+            showItem.append(tr)   
+        });
+
 }
-
-
-function showData(productName,productPrice,productCategory,productID){
-
-    let card=
-    `<tr>
-                            <td>${productName}</td>
-                            <td>${productPrice}</td>
-                            <td>${productCategory}</td>
-                            <td>${productID}</td>
-                            <td><button class="btn">Delete</button></td>  
-                            
-    </tr>
-    `
-    
-    return card
-}
-
-// fetch("http://localhost:3000/shirts/2",{
-//     method:"DELETE"
-// })
-
-
+//  search functionality
+search.addEventListener("click",()=>{
+    fetch(`http://localhost:3000/shirts?q=${searchplaceholder.value}`)
+    .then((res)=>{
+        return res.json()
+    })
+    .then((search)=>{
+        // console.log(search)
+        renderData(search)
+    })
+})
 </script>
