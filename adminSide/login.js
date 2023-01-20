@@ -10,6 +10,7 @@ loginForm.addEventListener("submit",(event)=>{
     } else {
       alert("Incorrect email or password. Please try again.");
     }
+    
 })
 
 

@@ -1,5 +1,5 @@
 // console.log("add immage ok")
-let url="https://mock-api-wmzl.onrender.com/Products"
+let url="http://localhost:3000/Products"
 //url can be chenge
 
 
@@ -14,11 +14,14 @@ form.addEventListener("submit",(e)=>{
    let price=document.getElementById("price")
   
     let discount=document.getElementById("discount")
-   let size=document.getElementById("size")
-   let img1=document.getElementById("img1")
-   let img2=document.getElementById("img2")
-   let keyword=document.getElementById("keyword")
-   let image=[img1.value,img2.value];
+   let size1=document.getElementById("size1").value
+    let size2=document.getElementById("size2").value
+     let size3=document.getElementById("size3").value
+   let img1=document.getElementById("img1").value
+   let img2=document.getElementById("img2").value
+   let colour=document.getElementById("colour")
+  
+   let size=[`${size1}`,`${size2}`,`${size3}`]
 
  
    fetch(url, {
@@ -30,17 +33,16 @@ form.addEventListener("submit",(e)=>{
       body: JSON.stringify({
         
         "title":pName.value,
-        "image":image,
-        "Keyword":keyword.value||"",
+        "image1":img1,
+        "image2":img2,
+        "colour":colour.value||"",
         "category":pCatagory.value,
         "sub-Catagory":pSubCatagory.value,
         "price":price.value,
         "mrp":mrp.value,
-        "size":size.value,
+        "size":size,
         "Brand":Brand.value ||"",
         "discount": discount.value||""
-
-
 
 
       })
