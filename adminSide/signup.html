@@ -1,33 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up page</title>
-    <link rel="stylesheet" href="signup.css">
-</head>
-<body>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
     <h1 class="title signup-title">Sign Up Page</h1>
     <div class="container">
       <form>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <br>
+        <input type="text" id="name" name="name" required />
+        <br />
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
+        <input type="email" id="email" name="email" required />
+        <br />
         <label for="mobile">Mobile:</label>
-        <input type="text" id="mobile" name="mobile" required>
-        <br>
+        <input type="text" id="mobile" name="mobile" required />
+        <br />
         <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
+        <input type="password" id="password" name="password" required />
+        <br />
         <label for="DOB">DOB:</label>
-        <input type="date" id="DOB" name="DOB" required>
-        <br>
-        <input type="submit" value="Sign Up" class="submit">
+        <input type="date" id="DOB" name="DOB" required />
+        <br />
+        <input type="submit" value="Sign Up" class="submit" />
       </form>
     </div>
-</body>
+  </body>
+  <script>
+
+    // console.log("add immage ok")
+    let url="http://localhost:3000/Admins"
+    //url can be chenge
+
+    let userName=document.getElementById("name")
+    let email=document.getElementById("email")
+    let mobile=document.getElementById("mobile")
+    let password=document.getElementById("password")
+    let DOB=document.getElementById("DOB")
+
+
+    let form=document.getElementById("add-Product");
+
+    form.addEventListener("submit",(e)=>{
+      e.preventDefault();
+
+
+
+
+       fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+
+          },
+          body: JSON.stringify({
+
+
+    "userName":`${document.getElementById("name").value}`,
+    "email":`${document.getElementById("email").value}`,
+    "mobile":`${document.getElementById("mobile").value}`,
+     "password":`${document.getElementById("password").value}`,
+     "DOB":`${document.getElementById("DOB").value}`
+
+          })
+
+        })
+
+
+
+
+
+
+    })
+  </script>
 </html>
