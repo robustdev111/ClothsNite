@@ -11,6 +11,11 @@ body{
 
 a{
     text-decoration: none;
+   
+   
+   
+   
+
 }
 
 li{
@@ -44,6 +49,16 @@ i{
 
 .btn{
     background: #f05462;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border :none;
+    margin: 5px;
+
+}
+.btng{
+    background: #e9c10e;
     color: white;
     padding: 5px 10px;
     text-align: center;
@@ -91,6 +106,12 @@ flex-direction: column;
 
 }
 
+
+.side-menu ul{
+    display: flex;
+    flex-direction: column;
+}
+
 .side-menu li{
 
     font-size: 20px;
@@ -115,7 +136,8 @@ flex-direction: column;
     background: #ece5ec;
     right: 0;
     width: 83vw;
-    height: 100vh;
+   
+    /* height: 100vh; */
 }
 
 .container .header{
@@ -125,6 +147,8 @@ flex-direction: column;
     width: 83vw;
     height: 7vh;
     color: rgb(219, 213, 213);
+    z-index: 100;
+    background: white;
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
@@ -195,6 +219,7 @@ flex-direction: column;
     position:relative;
     margin-top: 10vh;
     min-height: 90vh;
+    z-index: 0;
     /* border: 2px solid red; */
 
 }
