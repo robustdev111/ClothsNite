@@ -10,7 +10,7 @@
   <body>
     <h1 class="title signup-title">Sign Up Page</h1>
     <div class="container">
-      <form>
+      <form id="Signup">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
         <br />
@@ -23,8 +23,11 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required />
         <br />
-        <label for="DOB">DOB:</label>
-        <input type="date" id="DOB" name="DOB" required />
+        <label for="confirmPass">Re-enter PassWord</label>
+        <input type="password" id="confirmPass" name="confirmPass" required />
+
+        <!-- <label for="DOB">DOB:</label>
+        <input type="date" id="DOB" name="DOB" required /> -->
         <br />
         <input type="submit" value="Sign Up" class="submit" />
       </form>
@@ -33,25 +36,26 @@
   <script>
 
     // console.log("add immage ok")
-    let url="http://localhost:3000/Admins"
+    let url="http://localhost:3000"
     //url can be chenge
 
-    let userName=document.getElementById("name")
-    let email=document.getElementById("email")
-    let mobile=document.getElementById("mobile")
-    let password=document.getElementById("password")
-    let DOB=document.getElementById("DOB")
+   
 
 
-    let form=document.getElementById("add-Product");
+    let form=document.getElementById("Signup");
 
     form.addEventListener("submit",(e)=>{
       e.preventDefault();
 
+      let userName=document.getElementById("name")
+    let email=document.getElementById("email")
+    let mobile=document.getElementById("mobile")
+    let password=document.getElementById("password")
+    let confirmPass=document.getElementById("confirmPass")
 
+    if(password.value==confirmPass.value){
 
-
-       fetch(url, {
+       fetch(`${url}/Admins`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -69,7 +73,7 @@
           })
 
         })
-
+      }
 
 
 
