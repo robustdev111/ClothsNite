@@ -5,7 +5,7 @@
  
 
 
-  "orders":[
+  "orders_demo":[
 
     {"id":1,
       "userName":"Tanmoy Roy",
@@ -803,15 +803,9 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-<<<<<<< HEAD
+
       "colour": "grey"
-=======
-<<<<<<< HEAD
-      "colour":"grey"
-=======
-      "colour": "grey"
->>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
->>>>>>> 3ebb910696fa38b51382c5ff90f74a86dcf4fa99
+
     },
     {
       "id": 41,
