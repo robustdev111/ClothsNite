@@ -1,0 +1,17 @@
+#showItem img{
+    width: 30%;
+    padding-left: 50px;
+}
+
+.deletebtn{
+
+        background: #f05462;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        border-radius: 5px;
+        border :none;
+        margin: 5px;
+    
+}
+

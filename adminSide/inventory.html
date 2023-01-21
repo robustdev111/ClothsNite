@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Page</title>
+    <!-- <link rel="stylesheet" href="inventory.css"> -->
+    <link rel="stylesheet" href="/adminSide/Style_Admin/comn_style.css">
+    <link rel="stylesheet" href="inventory.css">
+</head>
+<body>
+    <div class="side-menu">
+        <div class="web_logo">
+            <h1>Web Site name</h1><!--add logo immage-->
+        </div>
+        <ul>
+            <li><a href="adminDashboard.html"><i class="fa-solid fa-house"></i><span>Home </span></a> </li>
+            <li><a href="order.html"><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Order</span></a> </li>
+            <li><a href="readyToShift.html"><i class="fa-sharp fa-solid fa-truck-fast"></i><span> Ready to ship</span></a> </li>
+            <li><a href="inventory.html"><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Inventory</span></a> </li>
+            <li><a href=""><i class="fa-sharp fa-solid fa-plus"></i><span>Add product </span></a> </li>
+            <li><a href=""><i class="fa-sharp fa-solid fa-money-check-dollar"></i><span> Income</span></a> </li>
+            <li><a href=""><i class="fa-sharp fa-solid fa-circle-info"></i><span> Help </span></a></li>
+            <li><a href=""><i class="fa-sharp fa-solid fa-gear"></i><span>  Setting</span></a></li>
+        </ul>
+        </div>
+        
+        <div class="container" >
+           <header class="header">
+            <nav class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..." id="searchplaceholder">
+                    <button class="btn" type="submit" id="search">Search</button>
+                </div>
+        
+                <div class="user">
+                 
+                    
+                    <!-- add user photo -->
+                    <div class="icon-cls">
+                        <img src="https://cdn.pixabay.com/photo/2014/04/02/17/07/user-307993__340.png" alt="">
+        
+                    </div>
+                    <h3>User Name</h3>
+                    <div class="icon-cls">  <i class="fa-solid fa-bell fa-2x"></i><!-- add notification logo --> </div>
+                </div>
+            </nav>
+           </header>
+        <!-- container 2 satrting buttom div -->
+        <div class="advance_Data">
+            <div class="add-product">
+                <div class="title">
+                    <h3>Products</h3>
+                </div>
+        
+                <table>
+                    <!-- <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Product Id</th>
+                    </tr> -->
+                    <thead>
+                        <tr>
+                            <th>product Image</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Category</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="showItem">
+                        <!-- append data here -->
+
+                    </tbody>
+                </table>
+        
+        
+            </div>
+                   
+        
+        
+        </div>
+</body>
+
+</html>
+<script>
+let showItem=document.getElementById("showItem");
+let search=document.getElementById("search");
+let searchplaceholder=document.getElementById("searchplaceholder");
+
+window.addEventListener("load",()=>{
+
+    // let alldata=[]
+    let fetchProduct=fetch("http://localhost:3000/Products")
+        fetchProduct.then((res)=>{
+            return res.json()
+
+        })
+        .then((Products)=>{
+                renderData(Products)
+            
+        })    
+})
+
+
+function renderData(data){
+    showItem.innerHTML=null;
+        data.forEach((element) => {
+          
+            let tr=document.createElement("tr");
+            let imageTd=document.createElement("td");
+            let image=document.createElement("img");
+            image.setAttribute("src",element.image1);
+            imageTd.append(image)
+            let title=document.createElement("td");
+            let price=document.createElement("td");
+            let category=document.createElement("td");
+            let deletebtn=document.createElement("td");
+                deletebtn.setAttribute("class","deletebtn")
+                deletebtn.addEventListener("click",()=>{
+                fetch(`http://localhost:3000/Products/${element.id}`,{
+                    method: 'DELETE',
+                    headers:{
+                        'Content-type':'application/json'
+                    }
+                })
+                renderData(data)
+                })
+                title.innerText=element.title;
+                price.innerText=element.price;
+                category.innerText=element.category;
+                deletebtn.innerText="Delete"
+            tr.append(image,title,price,category,deletebtn);
+            showItem.append(tr)   
+        });
+
+}
+//  search functionality
+search.addEventListener("click",()=>{
+    fetch(`http://localhost:3000/Products?q=${searchplaceholder.value}`)
+    .then((res)=>{
+        return res.json()
+    })
+    .then((search)=>{
+        // console.log(search)
+        renderData(search)
+    })
+})
+</script>

@@ -4,9 +4,548 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" integrity="sha512-9my9Mb2+0YO+I4PUCSwUYO7sEK21Y0STBAiFEYoWtd2VzLEZZ4QARDrZ30hdM1GlioHJ8o8cWQiy8IAb1hy/Hg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<style>
+*{
+    /* width: 100%; */
+    margin: 0%;
+    padding: 0%;
+}
+.banner1{
+    max-width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+}
+.banner1 video{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    z-index: 5;
+    object-fit: cover;
+   
+}
+
+.banner1Caption{
+   width: 50%;
+    position: relative;
+    z-index: 20;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+
+}
+.banner1Caption h1{
+    font-size: 42px;
+    letter-spacing: 2.5px;
+   margin-bottom: 20px;
+   color: white;
+}
+.banner1Caption p{
+    width: 60%;
+    font-size: 25px;
+    text-align: center;
+    color: gold;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+}
+
+.banner1Btns{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.btn{
+    width: 30%;
+    padding: 15px 20px;
+    color: gray;
+    background: white;
+    border: none;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.btn1{
+    margin: 0px 25px;
+}
+.btn:hover{
+    background-color: rgb(236, 229, 229);
+}
+/* banner2 */
+.banner2{
+    max-width: 100%;
+    height: 90vh;
+    background: url("https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw73d084aa/merchAssets/SS23/Homepage/hp/henley-hp2-desktop.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    padding-left: 60px;
+}
+
+.banner2-Content{
+    width: 60%;
+
+}
+.banner2-Content >span{
+
+font-size: 38px;
+font-weight: 600;
+    color: gold;
+}
+.banner2-Content>h1{
+    width: 50%;
+    font-size: 34px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    line-height: 33px;
+}
+.banner2-Content >p{
+    width: 68%;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 18px;
+}
+.banner2-Content > p+p{
+    width: 42%;
+   
+}
+.banner2-Content button{
+    margin-top: 35px;
+
+}
+/* banner3 */
+.banner3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner3-field{
+    width: 100%;
+    height: 70%;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   
+
+}
+.ban3-caption{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ban3-caption h2{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    
+}
+.ban3-caption h1{
+    font-size: 40px;
+    margin-top: 5px;
+}
+.ban3-caption h4{
+    font-weight: 400;
+}
+.ban3-caption p{
+    width: 43%;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+
+.ban3-caption button{
+    margin-top: 25px;
+    width: 30%;
+    padding: 15px 20px;
+    color: gray;
+    background:transparent;
+    border: 1px solid gray;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+}
+.ban3Imgaes{
+    width: 60%;
+    display: flex;
+    background-color: aliceblue;
+}
+.ban3Imgaes img{
+    width: 100%;
+}
+/* banner4 */
+.banner4{
+    max-width: 100%;
+    height: 90vh;
+    background: url("https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwd93b8878/merchAssets/AW22/Homepage/wide-banner/custom-hp2-desktop.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    text-align: center;
+    padding-left: 60px;
+}
+.ban4-field{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ban4-box1{
+    width: 40%;
+    margin-bottom: 40px;
+    height: 150px;
+    padding: 20px 0px;
+    background-color:  rgb(19, 38, 66);
+    border:3px solid white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.ban4-box1 h5{
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: rgb(228, 187, 84);
+}
+.ban4-box1 h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(247, 210, 118);
+}
+.ban4-box1 h6{
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 100;
+    margin: 3px 4px;
+}
+.ban4-box1 h4{
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 100;
+   
+}
+.ban4-field p{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.ban4-field button{
+    width: 30%;
+    padding: 15px 20px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+/* banner5 */
+.banner5{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ban5Div{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(236, 231, 231);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    column-gap: 50px;
+    padding: 0px 50px;
+
+}
+.ban5Sdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ban5Sdiv h5{
+    margin-bottom: 20px;
+}
+.ban5Sdiv p{
+    padding: 0px 10px;
+    font-size: 14px;
+}
+.banner6{
+    max-width: 100%;
+    height: 90vh;
+    background: url("https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwe28381b4/merchAssets/AW22/Homepage/wide-banner/recycling-hp5-desktop.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+     /* flex-direction: column; */
+    justify-content:end;
+    align-items: center; 
+    
+  
+}
+
+.ban6-cont {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.ban6-cont h1{
+    font-size: 38px;
+    font-weight: 400;
+    color: white;
+    
+
+}
+
+.ban6-cont p{
+    width: 80%;
+    margin-top: 25px;
+    color: white;
+}
+.ban6-cont button{
+    margin-top: 25px;
+}
+.footer{
+    width: 100%;
+    min-height: 100vh;
+}
+.footer-field{
+    margin: 30px auto;
+    width: 70%;
+    height: 300px ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     grid-template-rows: auto;
+     column-gap: 15px;
+     border-bottom: 1px solid gainsboro;
+    }
+    .footer-categoryDiv{
+        
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+     
+}
+.footer-categoryDiv span{
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+.footer-categoryDiv h6{
+margin-top: 13px;
+font-size: 11px;
+font-weight: 200;
+color: rgb(97, 94, 94);
+letter-spacing: 0.3px;
+}
+
+
+</style>
+<body>
+      <!-- banner1 -->
+    <div class="banner1 banner">
+        <video  loop muted autoplay preload="auto">
+            <source src="./bgvideo.mp4" type="video/mp4">
+        </video>
+   
+     <div class="banner1Caption"> 
+    
+            <h1>Your Presentation
+                Isn't Just On
+                Your Laptop</h1>
+       
+
+                <p>4 SHIRTS OR POLOS FOR $239
+                    SAVE UP TO $235</p>
+          
+     
+             <div class="banner1Btns">
+                <button class="btn btn1">SHOP NEW SEASON</button>
+                <button class="btn  btn2">SHOP SHIRTS</button>
+             </div>
+    </div>
+      
+    </div>
+<!-- closure -->
+    <!-- banner2 -->
+    <div class="banner2">
+          <div class="banner2-Content">
+            <span>NEW</span>
+            <h1>Meet the Henley Weave,
+                our shirt of the season.</h1>
+                <p>You won’t find this dobby weave anywhere else. The cutaway collar has a modern feel for formal and relaxed looks, 
+                    and natural stretch from 100% cotton keeps things comfy.</p>
+                <p>This non-iron hero comes in 10 designs and 3 fits.
+                    Pick from checks, fresh pastels and classic blues.</p>
+                    
+                <button class="btn">SHOP THE COLLECTION</button>
+          </div>
+    </div>
+
+    <!-- banner3 -->
+    <div class="banner3">
+        <div class="banner3-field">
+           <div class="ban3-caption">
+            <h2>4 SHIRTS OR POLOS</h2>
+            <h1>$239</h1>
+              <h4>SAVE UP TO $235</h4>
+              <p>For the office to working from home, and everything in between. Easy-to-wear shirts. At easy prices.</p>
+              <button >SHOP NOW</button>    
+            </div>
+           <div class="ban3Imgaes">
+            <img src="https://images.unsplash.com/photo-1602810320073-1230c46d89d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+             <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+        </div>
+        </div>
+    </div>
+    <!-- banner4 -->
+    <div class="banner4">
+       <div class="ban4-field">
+        <div class="ban4-box1">
+            <h5>DESIGNED BY</h5>
+            <h1>YOU</h1>
+            <h6>CRAFTED BY</h6>
+            <h4>CHARLES TYSHIRT</h4>
+        </div>
+        <p>Our new Custom Shirt tool is here! Get creative as you pick your fabric, collar, cuffs and all the details that make it one-of-a-kind, then get it fitted to your measurements.</p>
+          <button >TELL ME MORE</button>
+          <button>CUSTOMIZE YOUR SHIRT</button>
+    </div>
+    </div>
+
+    <!-- banner5 -->
+
+    <div class="banner5">
+        <div class="ban5Div">
+            <div class="ban5Sdiv">
+               <i class="fa-solid fa-solar-system"></i>
+                <h5>CARBON NEUTRAL</h5>
+                <P>We are proud to be Carbon Neutral with Planet Mark</P>
+
+            </div>
+            <div class="ban5Sdiv">
+                <i class="fa-light fa-truck-bolt"></i>
+                <h5>CARBON NEUTRAL</h5>
+                <P>We are proud to be Carbon Neutral with Planet Mark</P>
+
+            </div>
+            <div class="ban5Sdiv">
+                <i class="fa-regular fa-lock"></i>
+                <h5>CARBON NEUTRAL</h5>
+                <P>We are proud to be Carbon Neutral with Planet Mark</P>
+
+            </div>
+            <div class="ban5Sdiv">
+                <i class="fa-thin fa-briefcase-blank"></i>
+                <h5>CARBON NEUTRAL</h5>
+                <P>We are proud to be Carbon Neutral with Planet Mark</P>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner6 -->
+
+    <div class="banner6">
+        <div class=" ban6-cont ">
+           
+            <h1>Donate & Save up to $40</h1>
+                <p>For every shirt you donate, you get $10 off a fresh one, or bring in 4 and you’ll get $40 off our shirt multibuy. Win-win..</p>
+                <p>Bring any old shirt or polo (Tyrwhitt or not) to your nearest store, and we’ll donate them to local charities, so they can be reused.</p>
+                    
+                <button class="btn">FIND OUT MORE</button>
+          </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-field">
+            <div class="footer-categoryDiv">
+                <span>HELP</span>
+                <h6>FAQS</h6>
+                <h6>SHIPPING</h6>
+                <h6>RETURNS</h6>
+                <h6>SIZE GUIDES</h6>
+                <h6>SHIRT MULTIBUY</h6>
+                <h6>FIND A STORE</h6>
+                <h6>CONTACT US</h6>
+                <h6>WHERE IS MY ORDER?</h6>
+            </div>
+            <div class="footer-categoryDiv">
+                <span>LEGAL</span>
+                <h6>TERMS AND CONDITIONS</h6>
+                <h6>PRIVACY POLICY</h6>
+                <h6>OUR COOKIE POLICY</h6>
+                <h6>ACCESSIBILITY STATEMENT</h6>
+                <h6>ETHICAL TRADING POLICY</h6>
+                <h6>MODERN SLAVERY STATEMENT</h6>
+                <h6>INCLUSIVE WORKING STATEMENT</h6>
+                <h6>MY PERSONAL INFORMATION</h6>
+            </div>
+            <div class="footer-categoryDiv">
+                <span>MORE INFO</span>
+                <h6>ABOUT US</h6>
+                <h6>CUSTOM SHIRTS</h6>
+                <h6>GIFT VOUCHERS</h6>
+                <h6>WHOLESALE PARTNERSHIPS</h6>
+                <h6>COUPON CODES</h6>
+                <h6>REQUEST A CATALOGUE</h6>
+                <h6>DOING THINGS PROPERLY</h6>
+             
+            </div>
+            <div class="footer-categoryDiv">
+                <span>CAREERS</span>
+                <h6>UK VACANCIES</h6>
+                <h6>US VACANCIES</h6>
+                <h6>OUR BELIEFS</h6>
+                <h6>OUR BENEFITS</h6>
+                <h6>OUR PEOPLE</h6>
+                <!-- <div></div> -->
+            </div>
+
+        </div>
+
+        <!-- paymetn field -->
+        <div class="payment-field">
+            <p>Shopping is secure with Charles Tyrwhitt.</p>
+            <p>We accept:</p>
+            <div>
+                
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
