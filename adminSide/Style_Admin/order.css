@@ -1,0 +1,16 @@
+#showItem img{
+    width: 20%;
+    /* padding-left: 50px; */
+}
+
+.acceptbtn{
+
+        background: green;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        border-radius: 5px;
+        border :none;
+        margin: 5px;
+    
+}

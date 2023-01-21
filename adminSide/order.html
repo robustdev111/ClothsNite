@@ -7,6 +7,7 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Style_Admin\comn_style.css">
+    <link rel="stylesheet" href="/adminSide/Style_Admin/order.css">
    
 </head>
 <body>
@@ -51,6 +52,7 @@
 
 
 <!-- container 2 satrting buttom div -->
+
 <table>
 
     <thead>
@@ -109,9 +111,9 @@ function renderData(data){
             let price=document.createElement("td");
             let category=document.createElement("td");
             let applybtn=document.createElement("td");
-                applybtn.setAttribute("class","deletebtn")
+                applybtn.setAttribute("class","acceptbtn")
                 applybtn.addEventListener("click",()=>{
-                fetch(`http://localhost:3000/readytoship/add`,{
+                fetch(`http://localhost:3000/readytoship`,{
                     method:'POST',
                     headers:{
                         'content-type':'application/json'
@@ -127,12 +129,12 @@ function renderData(data){
                 })
                 renderData(data)
                 })
-                user.innerText=element.user //will need to modify
+                user.innerText="user" //will need to modify
                 title.innerText=element.title;
                 price.innerText=element.price;
                 category.innerText=element.category;
-                deletebtn.innerText="Delete"
-            tr.append(imageTd,user,title,price,category,deletebtn);
+                applybtn.innerText="Accept"
+            tr.append(imageTd,user,title,price,category,applybtn);
             showItem.append(tr)   
         });
 
