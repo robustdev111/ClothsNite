@@ -1,6 +1,6 @@
 #showItem img{
-    width: 30%;
-    padding-left: 50px;
+    width: 20%;
+    /* padding-left: 50px; */
 }
 
 .deletebtn{
@@ -15,3 +15,6 @@
     
 }
 
+table{
+    padding-right: 30px;
+}
