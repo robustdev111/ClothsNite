@@ -1,4 +1,5 @@
 {
+  "ReadyToShip":[],
 
   "orders":[
 
@@ -87,7 +88,7 @@
     },
     {
       "userName": "Tanmoy Roy",
-      "email": "royanupama782@gmail.com",
+      "email": "royama782@gmail.com",
       "mobile": "9093141114",
       "password": "W5knh8Gh5z3pT.",
       "DOB": "2023-01-25",
@@ -95,7 +96,7 @@
     },
     {
       "userName": "Tanmoy Roy",
-      "email": "royanupama782@gmail.com",
+      "email": "royanupam@gmail.com",
       "mobile": "9093141114",
       "password": "W5knh8Gh5z3pT.",
       "DOB": "2023-01-27",
