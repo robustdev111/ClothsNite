@@ -12,18 +12,19 @@
 <body>
     <div class="side-menu">
 <div class="web_logo">
-    <h1>Web Site name</h1><!--add logo immage-->
+   <img src="logo.jpeg" alt=""><!--add logo immage-->
 </div>
 <ul>
     <li><a href="adminDashboard.html"><i class="fa-solid fa-house"></i><span>Home </span></a> </li>
     <li><a href="order.html"><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Order</span></a> </li>
     <li><a href="readyToShift.html"><i class="fa-sharp fa-solid fa-truck-fast"></i><span> Ready to ship</span></a> </li>
     <li><a href="inventory.html"><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Inventory</span></a> </li>
-    <li><a href=""><i class="fa-sharp fa-solid fa-plus"></i><span>Add product </span></a> </li>
-    <li><a href=""><i class="fa-sharp fa-solid fa-money-check-dollar"></i><span> Income</span></a> </li>
-    <li><a href=""><i class="fa-sharp fa-solid fa-circle-info"></i><span> Help </span></a></li>
-    <li><a href=""><i class="fa-sharp fa-solid fa-gear"></i><span>  Setting</span></a></li>
-</ul>
+    <li><a href="addproduct.html"><i class="fa-sharp fa-solid fa-plus"></i><span>Add product </span></a> </li>
+    <li><a href="#"><i class="fa-sharp fa-solid fa-money-check-dollar"></i><span> Income</span></a> </li>
+    <li><a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i><span> Help </span></a></li>
+    <li><a href="#"><i class="fa-sharp fa-solid fa-gear"></i><span>  Setting</span></a></li>
+
+  </ul>
 </div>
 
 <div class="container">
@@ -93,10 +94,11 @@
     <div class="add-product">
         <div class="title">
             <h3>Products</h3>
-            <a href="#" class="btn">View All</a>
+            <a href="inventory.html" class="btn">View All</a>
         </div>
 
         <table>
+            <thead>
             <tr>
                 <th>Product image</th>
                 <th>Product Name</th>
@@ -105,6 +107,8 @@
                 <th>Status</th>
                
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td><div><img src="https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw2bc1be25/hi-res/CSR0964DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42"alt="Product img"></div></td>
                <td>Denim Shirt - Denim</td>
@@ -127,9 +131,10 @@
                <td>Spread Collar Non-Iron Henley Weave Shirt - Cornflower</td>
                <td>200</td>
                <td>2.1</td>
-               <td><button class="btng">Live</td>
+               <td><button class="btn">Live</td>
                
             </tr>
+        </tbody>
         </table>
 
 

@@ -1,4 +1,127 @@
 {
+<<<<<<< HEAD
+  "Admins":[],
+=======
+
+  "orders":[
+
+    {"id":1,
+      "userName":"Tanmoy Roy",
+     
+      "Address":"somthing Address",
+      "order_Value":3000,
+      "Order":[
+        {
+         "product1":"Product 1",
+          "product_Name":"Product name",
+          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity":2
+          
+
+        },{
+          "product2":"Product 2",
+          "product_Name":"Product name",
+          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity":1
+        }
+      ]
+    },
+    {"id":2,
+      "userName":"Tanmoy Roy",
+     
+      "Address":"somthing Address",
+      "order_Value":3000,
+      "Order":[
+        {
+         "product1":"Product 1",
+          "product_Name":"Product name",
+          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity":2
+          
+
+        },{
+          "product2":"Product 2",
+          "product_Name":"Product name",
+          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity":1
+        }
+      ]
+    },
+    {"id":3,
+      "userName":"Tanmoy Roy",
+     
+      "Address":"somthing Address",
+      "order_Value":3000,
+      "Order":[
+        {
+         "product1":"Product 1",
+          "product_Name":"Product name",
+          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity":2
+          
+
+        },{
+          "product2":"Product 2",
+          "product_Name":"Product name",
+          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity":1
+        }
+      ]
+    }
+
+
+  ],
+  "Admins": [
+    {
+      "userName": "Tanmoy Roy",
+      "email": "royanupama782@gmail.com",
+      "mobile": "9093141114",
+      "password": "W5knh8Gh5z3pT.",
+      "DOB": "2023-01-18",
+      "id": 1
+    },
+    {
+      "userName": "Tanmoy",
+      "email": "ahaha@gmail.com",
+      "mobile": 900000,
+      "password": 784578,
+      "DOB": "11.12.13",
+      "id": 2
+    },
+    {
+      "userName": "Tanmoy Roy",
+      "email": "royanupama782@gmail.com",
+      "mobile": "9093141114",
+      "password": "W5knh8Gh5z3pT.",
+      "DOB": "2023-01-25",
+      "id": 3
+    },
+    {
+      "userName": "Tanmoy Roy",
+      "email": "royanupama782@gmail.com",
+      "mobile": "9093141114",
+      "password": "W5knh8Gh5z3pT.",
+      "DOB": "2023-01-27",
+      "id": 4
+    },
+    {
+      "userName": "Tanmoy",
+      "email": "ahaha@gmail.com",
+      "mobile": 900000,
+      "password": 784578,
+      "DOB": "11.12.13",
+      "id": 5
+    },
+    {
+      "userName": "ppppp",
+      "email": "a782@gmail.com",
+      "mobile": "9093141",
+      "password": "W5knh8Gh5z3pT.",
+      "DOB": "2023-01-26",
+      "id": 6
+    }
+  ],
+>>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
   "Products": [
     {
       "id": 2,
@@ -678,7 +801,15 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
+<<<<<<< HEAD
       "colour": "grey"
+=======
+<<<<<<< HEAD
+      "colour":"grey"
+=======
+      "colour": "grey"
+>>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
+>>>>>>> 3ebb910696fa38b51382c5ff90f74a86dcf4fa99
     },
     {
       "id": 41,
