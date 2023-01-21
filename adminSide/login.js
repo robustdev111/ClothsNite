@@ -43,13 +43,14 @@ loginForm.addEventListener("submit",(event)=>{
 
 
 
+
     // Hard-coded login credentials
     // if (email == "admin@gmail.com" && password == "admin") {
     //   alert("Login successful!");
     // } else {
     //   alert("Incorrect email or password. Please try again.");
     // }
-    
+
 })
 
 

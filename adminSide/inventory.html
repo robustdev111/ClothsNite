@@ -6,25 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventory Page</title>
     <!-- <link rel="stylesheet" href="inventory.css"> -->
+<<<<<<< HEAD
+    <link rel="stylesheet" href="/adminSide/Style_Admin/comn_style.css">
+    <link rel="stylesheet" href="inventory.css">
+=======
     <link rel="stylesheet" href="Style_Admin/comn_style.css">
     <link rel="stylesheet" href="inventory.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+>>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
 </head>
 <body>
     <div class="side-menu">
         <div class="web_logo">
+<<<<<<< HEAD
+            <h1>Web Site name</h1><!--add logo immage-->
+=======
             <img src="logo.jpeg" alt=""><!--add logo immage-->
+>>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
         </div>
         <ul>
             <li><a href="adminDashboard.html"><i class="fa-solid fa-house"></i><span>Home </span></a> </li>
             <li><a href="order.html"><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Order</span></a> </li>
             <li><a href="readyToShift.html"><i class="fa-sharp fa-solid fa-truck-fast"></i><span> Ready to ship</span></a> </li>
             <li><a href="inventory.html"><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Inventory</span></a> </li>
+<<<<<<< HEAD
+            <li><a href=""><i class="fa-sharp fa-solid fa-plus"></i><span>Add product </span></a> </li>
+            <li><a href=""><i class="fa-sharp fa-solid fa-money-check-dollar"></i><span> Income</span></a> </li>
+            <li><a href=""><i class="fa-sharp fa-solid fa-circle-info"></i><span> Help </span></a></li>
+            <li><a href=""><i class="fa-sharp fa-solid fa-gear"></i><span>  Setting</span></a></li>
+        </ul>
+=======
             <li><a href="addproduct.html"><i class="fa-sharp fa-solid fa-plus"></i><span>Add product </span></a> </li>
             <li><a href="#"><i class="fa-sharp fa-solid fa-money-check-dollar"></i><span> Income</span></a> </li>
             <li><a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i><span> Help </span></a></li>
             <li><a href="#"><i class="fa-sharp fa-solid fa-gear"></i><span>  Setting</span></a></li>
           </ul>
+>>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
         </div>
         
         <div class="container" >
@@ -57,7 +74,11 @@
         
                 <table>
                     <!-- <tr>
+<<<<<<< HEAD
+                        <th>Product Name</th>
+=======
                         <th>Product Name</th><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+>>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
                         <th>Price</th>
                         <th>Category</th>
                         <th>Product Id</th>
@@ -77,7 +98,10 @@
                     </tbody>
                 </table>
         
+<<<<<<< HEAD
+=======
                 <!-- weneed pagination button hear-->
+>>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
         
             </div>
                    
@@ -96,7 +120,7 @@ let searchplaceholder=document.getElementById("searchplaceholder");
 window.addEventListener("load",()=>{
 
     // let alldata=[]
-    let fetchProduct=fetch("http://localhost:3000/Products?_page=1&_limit=15")
+    let fetchProduct=fetch("http://localhost:3000/Products?_page=1&_limit=3")
         fetchProduct.then((res)=>{
             return res.json()
 
@@ -135,7 +159,7 @@ function renderData(data){
                 price.innerText=element.price;
                 category.innerText=element.category;
                 deletebtn.innerText="Delete"
-            tr.append(image,title,price,category,deletebtn);
+            tr.append(imageTd,title,price,category,deletebtn);
             showItem.append(tr)   
         });
 
