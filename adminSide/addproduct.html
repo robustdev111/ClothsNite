@@ -18,7 +18,7 @@
   <li><a href="adminDashboard.html"><i class="fa-solid fa-house"></i><span>Home </span></a> </li>
   <li><a href="order.html"><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Order</span></a> </li>
   <li><a href="readyToShift.html"><i class="fa-sharp fa-solid fa-truck-fast"></i><span> Ready to ship</span></a> </li>
-  <li><a href=""><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Inventory</span></a> </li>
+  <li><a href="inventory.html"><i class="fa-sharp fa-solid fa-boxes-stacked"></i><span> Inventory</span></a> </li>
   <li><a href="addproduct.html"><i class="fa-sharp fa-solid fa-plus"></i><span>Add product </span></a> </li>
   <li><a href="#"><i class="fa-sharp fa-solid fa-money-check-dollar"></i><span> Income</span></a> </li>
   <li><a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i><span> Help </span></a></li>
@@ -87,14 +87,14 @@
     <option value="XL">XL</option>
     <option value="XXL">XXL</option>
   </select>
-  <select name="size2" id="size2" required>
+  <select name="size2" id="size2" >
     <option value="">SELECT SIZE</option>
     <option value="M">M</option>
     <option value="L">L</option>
     <option value="XL">XL</option>
     <option value="XXL">XXL</option>
   </select>
-  <select name="size3" id="size3" required>
+  <select name="size3" id="size3" >
     <option value="">SELECT SIZE</option>
     <option value="M">M</option>
     <option value="L">L</option>
@@ -103,10 +103,10 @@
   </select>
 
   <label for="Product Immage">Product Immage</label>
-  <input id="img1" placeholder="Primary immage" required type="text">
-  <input id="img2" placeholder="Secondary immage" required type="text">
+  <input id="img1" placeholder="Primary immage" required type="text" required>
+  <input id="img2" placeholder="Secondary immage" required type="text" required>
   
-  <select name="color" id="color" required>
+  <select name="colour" id="colour" required>
     <option value="">color</option>
     <option value="blue">Blue</option>
     <option value="black">Black</option>
@@ -129,5 +129,5 @@
 </div>
 
 </body>
-<script src="Script_Admin\addProduct.js"></script>
+<script src="Script_Admin/addProduct.js"></script>
 </html>

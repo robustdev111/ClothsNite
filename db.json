@@ -1,77 +1,67 @@
 {
-
-  "ReadyToShip":[],
-
- 
-
-
-  "orders_demo":[
-
-    {"id":1,
-      "userName":"Tanmoy Roy",
-     
-      "Address":"somthing Address",
-      "order_Value":3000,
-      "Order":[
+  "ReadyToShip": [
+    {
+      "id": 1,
+      "userName": "Tanmoy Roy",
+      "Address": "somthing Address",
+      "order_Value": 3000,
+      "Order": [
         {
-         "product1":"Product 1",
-          "product_Name":"Product name",
-          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "Quantity":2
-          
-
-        },{
-          "product2":"Product 2",
-          "product_Name":"Product name",
-          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "Quantity":1
-        }
-      ]
-    },
-    {"id":2,
-      "userName":"Tanmoy Roy",
-     
-      "Address":"somthing Address",
-      "order_Value":3000,
-      "Order":[
+          "product1": "Product 1",
+          "product_Name": "Product name",
+          "product_img": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity": 2
+        },
         {
-         "product1":"Product 1",
-          "product_Name":"Product name",
-          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "Quantity":2
-          
-
-        },{
-          "product2":"Product 2",
-          "product_Name":"Product name",
-          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "Quantity":1
-        }
-      ]
-    },
-    {"id":3,
-      "userName":"Tanmoy Roy",
-     
-      "Address":"somthing Address",
-      "order_Value":3000,
-      "Order":[
-        {
-         "product1":"Product 1",
-          "product_Name":"Product name",
-          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "Quantity":2
-          
-
-        },{
-          "product2":"Product 2",
-          "product_Name":"Product name",
-          "product_img":"https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
-          "Quantity":1
+          "product2": "Product 2",
+          "product_Name": "Product name",
+          "product_img": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity": 1
         }
       ]
     }
-
-
+  ],
+  "orders": [
+    {
+      "id": 2,
+      "userName": "Tanmoy Roy",
+      "Address": "somthing Address",
+      "order_Value": 3000,
+      "Order": [
+        {
+          "product1": "Product 1",
+          "product_Name": "Product name",
+          "product_img": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity": 2
+        },
+        {
+          "product2": "Product 2",
+          "product_Name": "Product name",
+          "product_img": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userName": "Tanmoy Roy",
+      "Address": "somthing Address",
+      "order_Value": 3000,
+      "Order": [
+        {
+          "product1": "Product 1",
+          "product_Name": "Product name",
+          "product_img": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity": 2
+        },
+        {
+          "product2": "Product 2",
+          "product_Name": "Product name",
+          "product_img": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw13eea116/hi-res/FON0540NAV_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+          "Quantity": 1
+        }
+      ]
+    }
   ],
   "Admins": [
     {
@@ -123,7 +113,6 @@
       "id": 6
     }
   ],
-
   "Products": [
     {
       "id": 2,
@@ -803,9 +792,7 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-
       "colour": "grey"
-
     },
     {
       "id": 41,
@@ -1589,6 +1576,24 @@
       ],
       "Brand": "",
       "discount": ""
+    },
+    {
+      "title": "Shirts & T-Shirts Men Wear, Cotton",
+      "image1": "https://5.imimg.com/data5/SELLER/Default/2022/3/IY/GT/HK/691100/0-250x250.jpg",
+      "image2": "https://5.imimg.com/data5/SELLER/Default/2022/3/IY/GT/HK/691100/0-250x250.jpg",
+      "colour": "black",
+      "category": "Tsharts",
+      "sub-Catagory": "Casual",
+      "price": "",
+      "mrp": "299",
+      "size": [
+        "L",
+        " ",
+        " "
+      ],
+      "Brand": "",
+      "discount": "199",
+      "id": 85
     }
   ],
   "readytoship": [
@@ -1641,7 +1646,7 @@
       "discount": ""
     }
   ],
-  "orders": [
+  "orders_demo": [
     {
       "id": 3,
       "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
