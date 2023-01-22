@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
 
   "Admins":[],
 
+=======
+>>>>>>> 423005d59d87517f7c3db7aca4b5b5e98a65b19a
 
-  "orders":[
+  "ReadyToShip":[],
+
+ 
+
+
+  "orders_demo":[
 
     {"id":1,
       "userName":"Tanmoy Roy",
@@ -90,7 +98,7 @@
     },
     {
       "userName": "Tanmoy Roy",
-      "email": "royanupama782@gmail.com",
+      "email": "royama782@gmail.com",
       "mobile": "9093141114",
       "password": "W5knh8Gh5z3pT.",
       "DOB": "2023-01-25",
@@ -98,7 +106,7 @@
     },
     {
       "userName": "Tanmoy Roy",
-      "email": "royanupama782@gmail.com",
+      "email": "royanupam@gmail.com",
       "mobile": "9093141114",
       "password": "W5knh8Gh5z3pT.",
       "DOB": "2023-01-27",
@@ -121,6 +129,10 @@
       "id": 6
     }
   ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> 423005d59d87517f7c3db7aca4b5b5e98a65b19a
   "Products": [
     {
       "id": 2,
@@ -800,7 +812,13 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
+<<<<<<< HEAD
       "colour":"grey"
+=======
+
+      "colour": "grey"
+
+>>>>>>> 423005d59d87517f7c3db7aca4b5b5e98a65b19a
     },
     {
       "id": 41,
@@ -1584,21 +1602,103 @@
       ],
       "Brand": "",
       "discount": ""
+    }
+  ],
+  "readytoship": [
+    {
+      "id": 1,
+      "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+      "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw32203fdc/hi-res/CSQ0033DEN_MODEL_UNTUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
+      "title": "England Rugby Denim Shirt - Denim Blue",
+      "category": "shirts",
+      "price": 119,
+      "offer": "$59.75 MULTIBUY",
+      "colour": "black",
+      "sub-Catagory": "Casual",
+      "size": [
+        "M"
+      ],
+      "Brand": "",
+      "discount": ""
     },
     {
-      "id": 85,
-      "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw1096a8f9/hi-res/TRH0042COR_MODEL_FULL_FRONT.jpg?sw=430&sh=538&sm=fit&q=42",
-      "title": "Cotton Shorts - Coral Pink",
-      "price": 69,
-      "category": "pants",
+      "id": 2,
+      "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+      "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw32203fdc/hi-res/CSQ0033DEN_MODEL_UNTUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
+      "title": "England Rugby Denim Shirt - Denim Blue",
+      "category": "shirts",
+      "price": 119,
       "offer": "$59.75 MULTIBUY",
-      "colour": "pink",
-      "sub-Catagory": "",
+      "colour": "black",
+      "sub-Catagory": "Casual",
       "size": [
-        "M",
-        "L",
-        "XL",
-        "XXL"
+        "M"
+      ],
+      "Brand": "",
+      "discount": ""
+    },
+    {
+      "id": 3,
+      "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+      "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw32203fdc/hi-res/CSQ0033DEN_MODEL_UNTUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
+      "title": "England Rugby Denim Shirt - Denim Blue",
+      "category": "shirts",
+      "price": 119,
+      "offer": "$59.75 MULTIBUY",
+      "colour": "black",
+      "sub-Catagory": "Casual",
+      "size": [
+        "M"
+      ],
+      "Brand": "",
+      "discount": ""
+    }
+  ],
+  "orders": [
+    {
+      "id": 3,
+      "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+      "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw32203fdc/hi-res/CSQ0033DEN_MODEL_UNTUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
+      "title": "England Rugby Denim Shirt - Denim Blue",
+      "category": "shirts",
+      "price": 119,
+      "offer": "$59.75 MULTIBUY",
+      "colour": "black",
+      "sub-Catagory": "Casual",
+      "size": [
+        "M"
+      ],
+      "Brand": "",
+      "discount": ""
+    },
+    {
+      "id": 4,
+      "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+      "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw32203fdc/hi-res/CSQ0033DEN_MODEL_UNTUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
+      "title": "England Rugby Denim Shirt - Denim Blue",
+      "category": "shirts",
+      "price": 119,
+      "offer": "$59.75 MULTIBUY",
+      "colour": "black",
+      "sub-Catagory": "Casual",
+      "size": [
+        "M"
+      ],
+      "Brand": "",
+      "discount": ""
+    },
+    {
+      "id": 5,
+      "image1": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw58d74713/hi-res/CSQ0033DEN_COLLAR_DETAIL.jpg?sw=430&sh=538&sm=fit&q=42",
+      "image2": "https://www.charlestyrwhitt.com/dw/image/v2/AAWJ_PRD/on/demandware.static/-/Sites-ctshirts-master/default/dw32203fdc/hi-res/CSQ0033DEN_MODEL_UNTUCKED.jpg?sw=430&sh=538&sm=fit&q=42",
+      "title": "England Rugby Denim Shirt - Denim Blue",
+      "category": "shirts",
+      "price": 119,
+      "offer": "$59.75 MULTIBUY",
+      "colour": "black",
+      "sub-Catagory": "Casual",
+      "size": [
+        "M"
       ],
       "Brand": "",
       "discount": ""

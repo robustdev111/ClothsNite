@@ -63,6 +63,9 @@
         <input type="date" id="DOB" name="DOB" required /> -->
         <br />
         <input type="submit" value="Sign Up" class="submit" />
+        <div>
+          <p>Already have an account? <a href="login.html">Login here</a></p>
+        </div>
       </form>
     </div>
   </body>
@@ -72,7 +75,18 @@
     let url="http://localhost:3000"
     //url can be chenge
 
-   
+
+
+
+    let adminInfo=[];
+window.addEventListener("load",()=>{
+  fetch(`${url}/Admins`).then(res=>res.json()).then(data=>{
+    adminInfo=data
+    //console.log(adminInfo)
+  })
+})// get all admin data
+
+
 
 
     let form=document.getElementById("Signup");
@@ -85,6 +99,24 @@
     let mobile=document.getElementById("mobile")
     let password=document.getElementById("password")
     let confirmPass=document.getElementById("confirmPass")
+
+
+    let validUser=adminInfo.filter((ele)=>{
+
+if(ele.email==email.value){
+  
+    return true
+  
+}
+
+})
+
+if(validUser.length>0){
+  alert("Admin already exit go to login")
+  window.location.href="login.html"
+}else{
+
+
 
     if(password.value==confirmPass.value){
 
@@ -109,7 +141,7 @@
       }
 
 
-
+    }
 
 
     })

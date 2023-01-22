@@ -7,6 +7,7 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Style_Admin\comn_style.css">
+    <link rel="stylesheet" href="/adminSide/Style_Admin/order.css">
    
 </head>
 <body>
@@ -42,7 +43,7 @@
                 <img src="https://cdn.pixabay.com/photo/2014/04/02/17/07/user-307993__340.png" alt="">
 
             </div>
-            <h3>User Name</h3>
+            <h3 id="Admin_name">User Name</h3>
             <div class="icon-cls">  <i class="fa-solid fa-bell fa-2x"></i><!-- add notification logo --> </div>
         </div>
     </nav>
@@ -52,19 +53,107 @@
 
 <!-- container 2 satrting buttom div -->
 
-<div class="order_Manegement">
+<table>
 
-<div class="orders_top_banner">
-   
+    <thead>
+        <tr>
+            <th>Product Image</th>
+            <th>User</th>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Accept</th>
+        </tr>
+    </thead>
+    <tbody id="showItem">
+        <!-- append data here -->
+
+    </tbody>
+</table>
+
+
 </div>
 
-</div>
-
-</div>
-
-
-
-</div>
-
-</body>
+</body><script src="Script_Admin/admin_name.js"></script>
 </html>
+
+<script>
+    let showItem=document.getElementById("showItem");
+// let search=document.getElementById("search");
+// let searchplaceholder=document.getElementById("searchplaceholder");
+
+window.addEventListener("load",()=>{
+
+
+
+
+
+
+    // let alldata=[]
+    let fetchProduct=fetch("http://localhost:3000/orders")
+        fetchProduct.then((res)=>{
+            return res.json()
+
+        })
+        .then((Products)=>{
+                renderData(Products)
+            
+        })    
+})
+
+
+function renderData(data){
+    showItem.innerHTML=null;
+        data.forEach((element) => {
+          
+            let tr=document.createElement("tr");
+            let imageTd=document.createElement("td");
+            let image=document.createElement("img");
+            image.setAttribute("src",element.image1);
+            imageTd.append(image)
+            let user=document.createElement("td");
+            let title=document.createElement("td");
+            let price=document.createElement("td");
+            let category=document.createElement("td");
+            let applybtn=document.createElement("td");
+                applybtn.setAttribute("class","acceptbtn")
+                applybtn.addEventListener("click",()=>{
+                fetch(`http://localhost:3000/readytoship`,{
+                    method:'POST',
+                    headers:{
+                        'content-type':'application/json'
+                    },
+                    body:JSON.stringify(element)
+                })
+                
+                fetch(`http://localhost:3000/orders/${element.id}`,{
+                    method: 'DELETE',
+                    headers:{
+                        'Content-type':'application/json'
+                    }
+                })
+                renderData(data)
+                })
+                user.innerText="user" //will need to modify
+                title.innerText=element.title;
+                price.innerText=element.price;
+                category.innerText=element.category;
+                applybtn.innerText="Accept"
+            tr.append(imageTd,user,title,price,category,applybtn);
+            showItem.append(tr)   
+        });
+
+}
+//  search functionality
+// search.addEventListener("click",()=>{
+//     fetch(`http://localhost:3000/Products?q=${searchplaceholder.value}`)
+//     .then((res)=>{
+//         return res.json()
+//     })
+//     .then((search)=>{
+//         // console.log(search)
+//         renderData(search)
+//     })
+// })
+</script>
+
