@@ -1,0 +1,185 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    color: #5f5f5f;
+}
+ 
+:root{
+    --text-color: #001f49;
+    --box-color:  #5f5f5f;
+    --background-color:#f2eeff;
+}
+html{
+    font-size: 67.5%;
+}
+.mainDiv {
+   max-width: 100%;
+   height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 15px;
+}
+
+.mainContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainImages {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mainContent h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.mainContent p {
+    color: var(--box-color);
+    text-align: justify;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 0px 110px;
+}
+
+.mainImages img {
+    width: 32%;
+    height: 260px;
+}
+.section2{
+    max-width: 100%;
+    height: 10vh;
+    padding: 0px 20px ;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section2 h4{
+    font-size: 15px;
+    color: var(--text-color);
+}
+/* producDiv */
+
+.leftdiv{
+    width: 20%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.filter{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.filterselect{
+   color: var(--text-color);
+padding: 15px 10px;
+border: none;
+font-size: 13px;
+font-weight: 700;
+border-bottom: 0.5px solid black;
+}
+.filter>select{
+border: none;
+}
+.filterselect:hover{
+background: var(--background-color);
+}
+.filterselect option{
+background-color: white;
+padding: 20px 10px;
+}
+
+.rightdiv{
+width: 80%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.rightdiv #sort{
+   max-width: 100%;
+   display: flex;
+   justify-content: end;
+   color: var(--text-color);
+   padding: 10px 10px;
+   font-size: 13px;
+   font-weight: 700;
+   border: none;
+}
+#sort>select{
+  border: 1px solid #001f49;
+  padding: 10px;
+  
+}
+#sort>select>option{
+    color: #5f5f5f;
+
+}
+#sort :hover{
+   background-color: var(--background-color);
+}
+
+
+/* proShirts */
+#productDiv{
+
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    height: auto;
+
+    }
+.product-main{
+    max-width: 100%;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto,1fr);
+   gap: 10px;
+}
+
+.product-card img{
+    width: 100%;
+}
+.card-content{
+    padding: 10px 0px;
+    line-height: 20px;
+}
+.card-content p{
+    font-size: 15px;
+}
+.card-content h5{
+    color: var(--text-color);
+
+}
+/*  media*/
+@media all and (min-width: 320px) and (max-width: 767px){
+      .mainDiv{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+     
+      .product-main{
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .section2{
+    margin-top: 100px;    }
+   
+    }
+
+

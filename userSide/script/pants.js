@@ -8,7 +8,7 @@ fetch(url)
 })
 .then((data)=>{
 
-   let r= data.filter(e=>e.category=="shirts")
+   let r= data.filter(e=>e.category=="pants")
             
    let productObj=r.map(e=>{
      return {

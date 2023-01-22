@@ -1,7 +1,7 @@
 {
-<<<<<<< HEAD
+
   "Admins":[],
-=======
+
 
   "orders":[
 
@@ -121,7 +121,6 @@
       "id": 6
     }
   ],
->>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
   "Products": [
     {
       "id": 2,
@@ -801,11 +800,7 @@
       "price": 69,
       "category": "pants",
       "offer": "$59.75 MULTIBUY",
-<<<<<<< HEAD
       "colour":"grey"
-=======
-      "colour": "grey"
->>>>>>> 9596f976d09b3f6debded164fede1ff7c39184e7
     },
     {
       "id": 41,
