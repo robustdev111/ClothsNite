@@ -1,0 +1,137 @@
+
+*{
+     /* box-sizing: border-box; */
+    /* outline: 1px solid limegreen !important; */
+    /* background: rgb(0 300 0 / 0.05) !important; */
+           padding: 0;
+           font-family: Futura;
+           font-family: sans-serif;
+           margin: 0px;     
+}
+#mainLogo{
+    /* margin-top: -10px; */
+    height: 60px;
+    /* width: 320px; */
+}
+#navbar{
+    /* border: black solid 1px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#SearchImg{
+    margin-top: 5px;
+    height: 30px;
+    /* margin-top: 30px; */
+}
+.secPart{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+#searchBar{
+    padding: 5px;
+    height: 35px;
+    border-radius: 10px;
+    /* border: 1px solid rgb(131, 130, 130); */
+    background-color: #ebedf3;
+    display: flex;
+    /* padding: 10px; */
+}
+#searchBar > input{
+    /* height: 40px; */
+    border: 0;
+    background-color: #ebedf3;
+    padding: 5px 10px;
+    font-size: 20px;
+    /* margin-top: -50px; */
+    width: 300px;
+}
+#firstPart {
+    margin: 10px;
+    cursor: pointer;
+    /* height: 60px; */
+}
+#secNav{
+    font-size: small;
+    background-color: #ebedf3;
+    /* padding: 15px; */
+    margin-bottom: 10px;
+    color: #5e5e5e;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#secNav > p{
+    padding: 10px;
+    cursor: pointer;
+}
+#secNav  >p:hover{
+    background-color: white;
+}
+#shirtHover{
+    display: none;
+    margin: 10px;
+}
+#shirts:hover + #shirtHover{
+    display: block;
+    /* background-color: white; */
+}
+/* #shirtsInfo ,#suitsInfo , #pantsInfo, #sweatersInfo{
+    visibility: hidden;
+} */
+.dInfo{
+    visibility: hidden;
+    display: flex;
+    z-index: 1000;
+    /* padding: 20px; */
+    line-height: 22px;
+    /* height: 0px; */
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    opacity: 0.9;
+    /* padding: 20px; */
+    background-color: white;
+    /* filter: blur(4px); */
+   /* background-color: #5e5e5e; */
+    justify-content: space-around;
+    font-size: small;
+}
+
+.dInfo p{
+    color: #5e5e5e;
+}
+
+.secNavImg > img{
+    height: 200px;
+}
+.searchProduct > img{
+    height: 100px;
+}
+.searchProduct{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+#appedSearch{
+    position: absolute;
+    background-color: #f7f7f7;
+    margin-left: 60%;
+    margin-top: -80px;
+    z-index: 100;
+    border-radius: 10px;
+    padding: 30px;
+    /* padding-top: 50px; */
+    opacity: 0.9;
+    height: 800px;
+    visibility: hidden;
+    overflow: scroll;
+}
+#closeSearch{
+    margin-top: -23px;
+    margin-left: -23px;
+    /* margin-bottom: 30px; */
+    height: 30px;
+    position: fixed;
+}

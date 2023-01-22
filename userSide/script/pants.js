@@ -108,10 +108,10 @@ function displayproduct(data){
 
     
     img.addEventListener("click",()=>{
-     let productData=JSON.parse(localStorage.getItem("product"))||[]
-   
+     let productData=JSON.parse(localStorage.getItem("orders"))||[]
+
         productData.push(element)
-        localStorage.setItem("product", JSON.stringify(productData))
+        localStorage.setItem("orders", JSON.stringify(productData))
         displayproduct(data)
        })
 
