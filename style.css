@@ -1,0 +1,422 @@
+
+*{
+    /* width: 100%; */
+    margin: 0%;
+    padding: 0%;
+}
+.banner1{
+    max-width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner1 video{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    z-index: 5;
+    object-fit: cover;
+   
+}
+
+.banner1Caption{
+   width: 50%;
+    position: relative;
+    z-index: 20;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+
+}
+.banner1Caption h1{
+    font-size: 42px;
+    letter-spacing: 2.5px;
+   margin-bottom: 20px;
+   color: white;
+}
+.banner1Caption p{
+    width: 60%;
+    font-size: 25px;
+    text-align: center;
+    color: gold;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+}
+
+.banner1Btns{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.btn{
+    width: 30%;
+    padding: 15px 20px;
+    color: gray;
+    background: white;
+    border: none;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.btn1{
+    margin: 0px 25px;
+}
+.btn:hover{
+    background-color: rgb(236, 229, 229);
+}
+/* carousel */
+.carousel-body{
+    max-width: 100%;;
+    height: 68vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    padding: 0px 0px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    
+     gap: 10px;
+}
+.carousel-img{
+    width: 100%;
+    height: 100%;
+
+}
+.carousel-img img{
+width: 100%;
+}
+/* banner2 */
+.banner2{
+    max-width: 100%;
+    height: 100vh;
+    background: url("https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dw73d084aa/merchAssets/SS23/Homepage/hp/henley-hp2-desktop.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    padding-left: 60px;
+}
+
+.banner2-Content{
+    width: 60%;
+
+}
+.banner2-Content >span{
+
+font-size: 38px;
+font-weight: 600;
+    color: gold;
+}
+.banner2-Content>h1{
+    width: 50%;
+    font-size: 34px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    line-height: 33px;
+}
+.banner2-Content >p{
+    width: 68%;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 18px;
+}
+.banner2-Content > p+p{
+    width: 42%;
+   
+}
+.banner2-Content button{
+    margin-top: 35px;
+
+}
+/* banner3 */
+.banner3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner3-field{
+    width: 100%;
+    height: 70%;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   
+
+}
+.ban3-caption{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ban3-caption h2{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    
+}
+.ban3-caption h1{
+    font-size: 40px;
+    margin-top: 5px;
+}
+.ban3-caption h4{
+    font-weight: 400;
+}
+.ban3-caption p{
+    width: 43%;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+
+.ban3-caption button{
+    margin-top: 25px;
+    width: 30%;
+    padding: 15px 20px;
+    color: gray;
+    background:transparent;
+    border: 1px solid gray;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+}
+.ban3Imgaes{
+    width: 60%;
+    display: flex;
+    background-color: aliceblue;
+}
+.ban3Imgaes img{
+    width: 100%;
+}
+/* banner4 */
+.banner4{
+    max-width: 100%;
+    height: 90vh;
+    background: url("https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwd93b8878/merchAssets/AW22/Homepage/wide-banner/custom-hp2-desktop.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    text-align: center;
+    padding-left: 60px;
+}
+.ban4-field{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ban4-box1{
+    width: 40%;
+    margin-bottom: 40px;
+    height: 150px;
+    padding: 20px 0px;
+    background-color:  rgb(19, 38, 66);
+    border:3px solid white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.ban4-box1 h5{
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: rgb(228, 187, 84);
+}
+.ban4-box1 h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(247, 210, 118);
+}
+.ban4-box1 h6{
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 100;
+    margin: 3px 4px;
+}
+.ban4-box1 h4{
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+    font-weight: 100;
+   
+}
+.ban4-field p{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.ban4-field button{
+    width: 30%;
+    padding: 15px 20px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+/* banner5 */
+.banner5{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ban5Div{
+    /* padding-top: 30px; */
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(236, 231, 231);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    column-gap: 50px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.ban5Sdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ban5Sdiv svg{
+    width: 25%;
+    margin-bottom: 5px;
+}
+.ban5Sdiv img{
+    width: 25%;
+
+}
+.ban5Sdiv h5{
+    margin-bottom: 20px;
+}
+.ban5Sdiv p{
+    padding: 0px 10px;
+    font-size: 14px;
+}
+.banner6{
+    max-width: 100%;
+    height: 90vh;
+    background: url("https://www.charlestyrwhitt.com/on/demandware.static/-/Library-Sites-CTShirtsSharedLibrary/default/dwe28381b4/merchAssets/AW22/Homepage/wide-banner/recycling-hp5-desktop.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+     /* flex-direction: column; */
+    justify-content:end;
+    align-items: center; 
+    
+  
+}
+
+.ban6-cont {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.ban6-cont h1{
+    font-size: 38px;
+    font-weight: 400;
+    color: white;
+    
+
+}
+
+.ban6-cont p{
+    width: 80%;
+    margin-top: 25px;
+    color: white;
+}
+.ban6-cont button{
+    margin-top: 25px;
+}
+.footer{
+    width: 100%;
+    min-height: 80vh;
+}
+.footer-field{
+    margin: 30px auto;
+    width: 70%;
+    height: 300px ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     grid-template-rows: auto;
+     column-gap: 15px;
+     border-bottom: 1px solid gainsboro;
+    }
+    .footer-categoryDiv{
+        
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+     
+}
+.footer-categoryDiv span{
+    font-size: 13px;
+    font-weight: 700;
+    
+}
+.footer-categoryDiv h6{
+margin-top: 13px;
+font-size: 11px;
+font-weight: 200;
+color: rgb(97, 94, 94);
+letter-spacing: 0.3px;
+}
+
+.payment-field{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.payment-field p{
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.pay-img{
+  
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pay-img img{
+    width: 20%;
+}

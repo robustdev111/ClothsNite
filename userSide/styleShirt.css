@@ -8,6 +8,7 @@
     :root{
         --text-color: #001f49;
         --box-color:  #5f5f5f;
+        --background-color:#f2eeff;
     }
     .mainDiv {
 
@@ -59,11 +60,16 @@
     .section2{
         width: 100%;
         height: 10vh;
-        background-color: #f2eeff;
+        padding: 0px 20px ;
+        background-color: var(--background-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
-    .section2 h3{
-        color: #001f49;
-
+    .section2 h4{
+        font-size: 15px;
+        color: var(--text-color);
     }
     /* producDiv */
   
@@ -73,22 +79,24 @@
         padding-left: 10px;
     }
     .filter{
-        color: var(--text-color);
-   
         width: 95%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         
     }
-   .filterselect{
+    .filterselect{
+       color: var(--text-color);
     padding: 15px 10px;
     border: none;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     border-bottom: 0.5px solid black;
    }
+   .filter>select{
+    border: none;
+   }
    .filterselect:hover{
-    background: #e7e3e3f5;
+    background: var(--background-color);
    }
    .filterselect option{
     background-color: white;
@@ -103,9 +111,24 @@
     }
     .rightdiv #sort{
        width: 100%;
-       height: 50px;
+       display: flex;
+       justify-content: end;
        color: var(--text-color);
-        border-bottom: 1px solid gray;
+       padding: 10px 10px;
+       font-size: 13px;
+       font-weight: 700;
+       border: none;
+    }
+    #sort>select{
+      border: 1px solid #001f49;
+      
+    }
+    #sort>select>option{
+        color: #5f5f5f;
+
+    }
+    #sort :hover{
+       background-color: var(--background-color);
     }
 
     
@@ -120,15 +143,13 @@
         }
     .product-main{
         max-width: 100%;
-    }
-    .productlist{
-    
         padding: 20px 10px;
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(auto,1fr);
        gap: 10px;
     }
+   
     .product-card img{
         width: 100%;
     }
@@ -144,5 +165,17 @@
 
     }
 /*  */
-
-
+@media all and (min-width: 320px) and (max-width: 767px){
+    .mainDiv{
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+   
+    .product-main{
+      grid-template-columns: repeat(2, 1fr);
+     
+  }
+  .section2{
+  margin-top: 100px;    }
+ 
+  }

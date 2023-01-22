@@ -59,10 +59,10 @@
     <lebel>Catagory</lebel>
     <select name="Catagory" id="Product-catagory" required>
       <option value="">SELECT CATAGORY</option>
-      <option value="Shirts">Shirts</option>
-      <option value="Pants">Pants</option>
-      <option value="Tsharts">Tsharts</option>
-      <option value="Shorts">Shorts</option>
+      <option value="shirts">shirts</option>
+      <option value="pants">pants</option>
+      <option value="tshirts">tshirts</option>
+      <option value="shorts">shorts</option>
     </select>
     <lebel>Sub Catagory</lebel>
     <select name="SubCatagory" id="Sub-catagory" required>
@@ -72,13 +72,14 @@
       <option value="Fancy">Fancy</option>
       <option value="others">others</option>
     </select>
-    
+    <lebel>Quantity</lebel>
+    <input id="quentity" type="number" required>
   <lebel>MRP</lebel>
   <input id="mrp" type="number" required>
   <lebel>Selling Price</lebel>
-  <input id="discount" type="number"> 
-  <lebel>Discount</lebel>
   <input id="price" type="number">
+  <lebel>Discount</lebel>
+  <input id="discount" type="number"> 
   <lebel>size</lebel>
   <select name="size1" id="size1" required>
     <option value="">SELECT SIZE</option>
@@ -109,6 +110,7 @@
   <select name="colour" id="colour" required>
     <option value="">color</option>
     <option value="blue">Blue</option>
+    <option value="red">Red</option>
     <option value="black">Black</option>
     <option value="white">White</option>
     <option value="navy_blue">Nevy Blue</option>
@@ -130,4 +132,5 @@
 
 </body>
 <script src="Script_Admin/addProduct.js"></script>
+<script src="Script_Admin/admin_name.js"></script>
 </html>

@@ -7,6 +7,7 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Style_Admin\comn_style.css">
+    <link rel="stylesheet" href="readytoshift.css">
    
 </head>
 <body>
@@ -56,16 +57,78 @@
 
 <div class="orders_top_banner">
    
-</div>
+    <table>
 
-</div>
-
-</div>
-
-
-
-</div>
-
+        <thead>
+            <tr>
+                <th>Product Image</th>
+                <th>User</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody id="showItem">
+            <!-- append data here -->
+    
+        </tbody>
+    </table>
+    
+    
 </body>
 <script src="Script_Admin/admin_name.js"></script>
 </html>
+
+<script>
+    let showItem=document.getElementById("showItem");
+// let search=document.getElementById("search");
+// let searchplaceholder=document.getElementById("searchplaceholder");
+
+window.addEventListener("load",()=>{
+    // let alldata=[]
+    let fetchProduct=fetch("http://localhost:3000/readytoship")
+        fetchProduct.then((res)=>{
+            return res.json()
+
+        })
+        .then((Products)=>{
+                renderData(Products)
+            
+        })    
+})
+
+
+function renderData(data){
+    showItem.innerHTML=null;
+        data.forEach((element) => {
+          
+            let tr=document.createElement("tr");
+            let imageTd=document.createElement("td");
+            let image=document.createElement("img");
+            image.setAttribute("src",element.image1);
+            imageTd.append(image)
+            let user=document.createElement("td");
+            let title=document.createElement("td");
+            let price=document.createElement("td");
+            let category=document.createElement("td");
+                user.innerText="user" //will need to modify
+                title.innerText=element.title;
+                price.innerText=element.price;
+                category.innerText=element.category;
+            tr.append(imageTd,user,title,price,category);
+            showItem.append(tr)   
+        });
+
+}
+//  search functionality
+// search.addEventListener("click",()=>{
+//     fetch(`http://localhost:3000/Products?q=${searchplaceholder.value}`)
+//     .then((res)=>{
+//         return res.json()
+//     })
+//     .then((search)=>{
+//         // console.log(search)
+//         renderData(search)
+//     })
+// })
+</script>
