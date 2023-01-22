@@ -95,7 +95,7 @@
         <span  style="margin: 10px 0px">|</span>
         <p onmouseenter="suits()" onmouseleave="leaves()" >SUITS</p>
         <span style="margin: 10px 0px">|</span>
-        <p onmouseenter="pantInfo()" onmouseleave="leaves()">PANTS</p>
+        <p id="pants" onmouseenter="pantInfo()" onmouseleave="leaves()">PANTS</p>
         <span style="margin: 10px 0px">|</span>
         <p onmouseenter="sweaterInfo()" onmouseleave="leaves()">SWEATERS</p>
         <span style="margin: 10px 0px">|</span>
@@ -542,6 +542,19 @@ if( loginStatus == true){
 
         
     })
+
+    let shirts = document.getElementById("shirts")
+    shirts.addEventListener("click",()=>{
+        window.open("productShirt.html","_self")
+    })
+
+    let pants= document.getElementById("pants")
+    pants.addEventListener("click",()=>{
+        window.open("productPants.html","_self")
+    })
+
+
+    
     console.log(loginData);
    function redirectHome(){
     window.open("../index.html","_self")

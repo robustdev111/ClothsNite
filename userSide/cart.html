@@ -164,7 +164,7 @@
             <span  style="margin: 10px 0px">|</span>
             <p onmouseenter="suits()" onmouseleave="leaves()" >SUITS</p>
             <span style="margin: 10px 0px">|</span>
-            <p onmouseenter="pantInfo()" onmouseleave="leaves()">PANTS</p>
+            <p id="pants" onmouseenter="pantInfo()" onmouseleave="leaves()">PANTS</p>
             <span style="margin: 10px 0px">|</span>
             <p onmouseenter="sweaterInfo()" onmouseleave="leaves()">SWEATERS</p>
             <span style="margin: 10px 0px">|</span>
@@ -740,7 +740,7 @@ let loginID = +localStorage.getItem("loginId");
 
 
 
- async function postCartData(){
+  function postCartData(){
     
     let id = loginID
     let obj ={
@@ -748,23 +748,27 @@ let loginID = +localStorage.getItem("loginId");
     userData : loginData[id],
     order: data
     }
+    
+console.log(obj)
 
-let res  = await fetch("http://localhost:3000/orders",{
+ fetch("http://localhost:3000/orders",{
     method: 'POST',
     header:{
         "Content-Type":"application/json"
     },
     body: JSON.stringify(obj)
-    
-
 })
-    
-
-
-console.log(res,obj)
-
 }
 
+let shirts = document.getElementById("shirts")
+shirts.addEventListener("click",()=>{
+    window.open("productShirt.html","_self")
+})
+
+let pants = document.getElementById("pants")
+pants.addEventListener("click",()=>{
+    window.open("productShirt.html","_self")
+})
 
 
 function redirectHome(){

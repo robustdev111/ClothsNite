@@ -112,6 +112,7 @@ function displayproduct(data){
    
         orders.push(element)
         localStorage.setItem("orders", JSON.stringify(orders))
+        alert("Product Added to Cart")
         displayproduct(data)
         
         
